@@ -1,21 +1,29 @@
 {
-    "version": "1.4.3",
+    "version": "1.4.6",
     "description": "Command-line tool to manage mmdbctl databases.",
     "homepage": "https://github.com/ipinfo/mmdbctl",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ipinfo/mmdbctl/releases/download/mmdbctl-1.4.3/mmdbctl_1.4.3_windows_amd64.zip",
-            "hash": "9F987A31BE29D258D5C61AF86BC28F314547F4A6BD1C09C565F78406214AC9F0",
+            "url": "https://github.com/ipinfo/mmdbctl/releases/download/mmdbctl-1.4.6/mmdbctl_1.4.6_windows_amd64.zip",
+            "hash": "234e214a7728f7e258075cb04db620b0d15f0d6708aa9a2988fdf6874b56042c",
             "bin": [
-                ["mmdbctl_1.4.3_windows_amd64.exe", "mmdbctl", "mmdbctl.exe"]
+                [
+                    "mmdbctl_1.4.6_windows_amd64.exe",
+                    "mmdbctl",
+                    "mmdbctl.exe"
+                ]
             ]
         },
         "32bit": {
-            "url": "https://github.com/ipinfo/mmdbctl/releases/download/mmdbctl-1.4.3/mmdbctl_1.4.3_windows_386.zip",
-            "hash": "2A4A1E45691E25977CA47EC8EC66289659B548FABE6527EF5E7514F9A780E7D4",
+            "url": "https://github.com/ipinfo/mmdbctl/releases/download/mmdbctl-1.4.6/mmdbctl_1.4.6_windows_386.zip",
+            "hash": "b6ac47120d137a17dcfd087dbb7fff579259b39f54e3ff635a735136bc495b38",
             "bin": [
-                ["mmdbctl_1.4.3_windows_386.exe", "mmdbctl", "mmdbctl.exe"]
+                [
+                    "mmdbctl_1.4.6_windows_386.exe",
+                    "mmdbctl",
+                    "mmdbctl.exe"
+                ]
             ]
         }
     },
@@ -28,7 +36,11 @@
                     "find": "sha256"
                 },
                 "bin": [
-                    ["mmdbctl_$version_windows_amd64.exe", "mmdbctl", "mmdbctl.exe"]
+                    [
+                        "mmdbctl_$version_windows_amd64.exe",
+                        "mmdbctl",
+                        "mmdbctl.exe"
+                    ]
                 ]
             },
             "32bit": {
@@ -38,7 +50,11 @@
                     "find": "sha256"
                 },
                 "bin": [
-                    ["mmdbctl_$version_windows_386.exe", "mmdbctl", "mmdbctl.exe"]
+                    [
+                        "mmdbctl_$version_windows_386.exe",
+                        "mmdbctl",
+                        "mmdbctl.exe"
+                    ]
                 ]
             }
         }
