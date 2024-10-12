@@ -7,12 +7,18 @@
         "64bit": {
             "url": "https://github.com/ipinfo/mmdbctl/releases/download/mmdbctl-1.4.3/mmdbctl_1.4.3_windows_amd64.zip",
             "hash": "9F987A31BE29D258D5C61AF86BC28F314547F4A6BD1C09C565F78406214AC9F0",
-            "bin": "mmdbctl_1.4.3_windows_amd64.exe"
+            "bin": "mmdbctl.exe",
+            "post_install": [
+                "Rename-Item \"$dir\\mmdbctl_1.4.3_windows_amd64.exe\" \"$dir\\mmdbctl.exe\""
+            ]
         },
         "32bit": {
             "url": "https://github.com/ipinfo/mmdbctl/releases/download/mmdbctl-1.4.3/mmdbctl_1.4.3_windows_386.zip",
             "hash": "2A4A1E45691E25977CA47EC8EC66289659B548FABE6527EF5E7514F9A780E7D4",
-            "bin": "mmdbctl_1.4.3_windows_386.exe"
+            "bin": "mmdbctl.exe",
+            "post_install": [
+                "Rename-Item \"$dir\\mmdbctl_1.4.3_windows_386.exe\" \"$dir\\mmdbctl.exe\""
+            ]
         }
     },
     "autoupdate": {
@@ -23,7 +29,10 @@
                     "url": "https://github.com/ipinfo/mmdbctl/releases/download/mmdbctl-$version/mmdbctl_$version_windows_amd64.zip",
                     "find": "sha256"
                 },
-                "bin": "mmdbctl_$version_windows_amd64.exe"
+                "bin": "mmdbctl.exe",
+                "post_install": [
+                    "Rename-Item \"$dir\\mmdbctl_$version_windows_amd64.exe\" \"$dir\\mmdbctl.exe\""
+                ]
             },
             "32bit": {
                 "url": "https://github.com/ipinfo/mmdbctl/releases/download/mmdbctl-$version/mmdbctl_$version_windows_386.zip",
@@ -31,7 +40,10 @@
                     "url": "https://github.com/ipinfo/mmdbctl/releases/download/mmdbctl-$version/mmdbctl_$version_windows_386.zip",
                     "find": "sha256"
                 },
-                "bin": "mmdbctl_$version_windows_386.exe"
+                "bin": "mmdbctl.exe",
+                "post_install": [
+                    "Rename-Item \"$dir\\mmdbctl_$version_windows_386.exe\" \"$dir\\mmdbctl.exe\""
+                ]
             }
         }
     },
