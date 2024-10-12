@@ -6,14 +6,15 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/maxmind/geoip2-csv-converter/releases/download/v1.4.0/geoip2-csv-converter_1.4.0_windows_amd64.zip",
-            "hash": "B5EA875B3A102D7636426E2D036CBAE9C07A19C942DAD733D29C10A665B2315A"
+            "hash": "B5EA875B3A102D7636426E2D036CBAE9C07A19C942DAD733D29C10A665B2315A",
+            "extract_dir": "geoip2-csv-converter_1.4.0_windows_amd64"
         },
         "32bit": {
             "url": "https://github.com/maxmind/geoip2-csv-converter/releases/download/v1.4.0/geoip2-csv-converter_1.4.0_windows_386.zip",
-            "hash": "0937210E48ADB8CAA02B8254D7CDEEAA392D59345DEC18F5C65141547124DA54"
+            "hash": "0937210E48ADB8CAA02B8254D7CDEEAA392D59345DEC18F5C65141547124DA54",
+            "extract_dir": "geoip2-csv-converter_1.4.0_windows_386"
         }
     },
-    "extract_dir": "geoip2-csv-converter_1.4.0_windows_$matchArch",
     "bin": "geoip2-csv-converter.exe",
     "checkver": {
         "github": "https://github.com/maxmind/geoip2-csv-converter"
@@ -21,12 +22,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/maxmind/geoip2-csv-converter/releases/download/v$version/geoip2-csv-converter_$version_windows_amd64.zip"
+                "url": "https://github.com/maxmind/geoip2-csv-converter/releases/download/v$version/geoip2-csv-converter_$version_windows_amd64.zip",
+                "extract_dir": "geoip2-csv-converter_$version_windows_amd64"
             },
             "32bit": {
-                "url": "https://github.com/maxmind/geoip2-csv-converter/releases/download/v$version/geoip2-csv-converter_$version_windows_386.zip"
+                "url": "https://github.com/maxmind/geoip2-csv-converter/releases/download/v$version/geoip2-csv-converter_$version_windows_386.zip",
+                "extract_dir": "geoip2-csv-converter_$version_windows_386"
             }
-        },
-        "extract_dir": "geoip2-csv-converter_$version_windows_$matchArch"
+        }
     }
 }
