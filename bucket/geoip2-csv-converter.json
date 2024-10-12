@@ -1,18 +1,18 @@
 {
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "A tool for converting MaxMind GeoIP2 and GeoLite2 CSV files to different formats",
     "homepage": "https://github.com/maxmind/geoip2-csv-converter",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/maxmind/geoip2-csv-converter/releases/download/v1.4.0/geoip2-csv-converter_1.4.0_windows_amd64.zip",
-            "hash": "B5EA875B3A102D7636426E2D036CBAE9C07A19C942DAD733D29C10A665B2315A",
-            "extract_dir": "geoip2-csv-converter_1.4.0_windows_amd64"
+            "url": "https://github.com/maxmind/geoip2-csv-converter/releases/download/v1.4.1/geoip2-csv-converter_1.4.1_windows_amd64.zip",
+            "hash": "dd1af69af794cc6a4938a4169a9b8ff486f1efea58006dc998198d5ddce84f4f",
+            "extract_dir": "geoip2-csv-converter_1.4.1_windows_amd64"
         },
         "32bit": {
-            "url": "https://github.com/maxmind/geoip2-csv-converter/releases/download/v1.4.0/geoip2-csv-converter_1.4.0_windows_386.zip",
-            "hash": "0937210E48ADB8CAA02B8254D7CDEEAA392D59345DEC18F5C65141547124DA54",
-            "extract_dir": "geoip2-csv-converter_1.4.0_windows_386"
+            "url": "https://github.com/maxmind/geoip2-csv-converter/releases/download/v1.4.1/geoip2-csv-converter_1.4.1_windows_386.zip",
+            "hash": "ff6494548cf93ed7a85d50432ca4c827ba54f5960fb9199b12f99b745f8b171e",
+            "extract_dir": "geoip2-csv-converter_1.4.1_windows_386"
         }
     },
     "bin": "geoip2-csv-converter.exe",
