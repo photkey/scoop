@@ -1,0 +1,40 @@
+{
+    "version": "1.4.3",
+    "description": "Command-line tool to manage mmdbctl databases.",
+    "homepage": "https://github.com/ipinfo/mmdbctl",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ipinfo/mmdbctl/releases/download/mmdbctl-1.4.3/mmdbctl_1.4.3_windows_amd64.zip",
+            "hash": "auto",
+            "bin": "mmdbctl_1.4.3_windows_amd64.exe",
+            "rename": "mmdbctl.exe"
+        },
+        "32bit": {
+            "url": "https://github.com/ipinfo/mmdbctl/releases/download/mmdbctl-1.4.3/mmdbctl_1.4.3_windows_386.zip",
+            "hash": "auto",
+            "bin": "mmdbctl_1.4.3_windows_386.exe",
+            "rename": "mmdbctl.exe"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ipinfo/mmdbctl/releases/download/mmdbctl-$version/mmdbctl_$version_windows_amd64.zip",
+                "hash": "auto",
+                "bin": "mmdbctl_$version_windows_amd64.exe",
+                "rename": "mmdbctl.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/ipinfo/mmdbctl/releases/download/mmdbctl-$version/mmdbctl_$version_windows_386.zip",
+                "hash": "auto",
+                "bin": "mmdbctl_$version_windows_386.exe",
+                "rename": "mmdbctl.exe"
+            }
+        },
+        "checkver": {
+            "url": "https://github.com/ipinfo/mmdbctl/releases",
+            "re": "/mmdbctl-([\\d.]+)"
+        }
+    }
+}
