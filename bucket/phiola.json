@@ -1,12 +1,12 @@
 {
-    "version": "2.2.7",
+    "version": "2.2.8",
     "description": "音频播放器、转换器和编辑器",
     "homepage": "https://github.com/stsaz/phiola",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stsaz/phiola/releases/download/v2.2.7/phiola-2.2.7-windows-x64.zip",
-            "hash": "DC6B8AE9F0475AAC966CB1E6FA616B7BEA9E84B19BF06A83BE26AEF0A4ACCBA7",
+            "url": "https://github.com/stsaz/phiola/releases/download/v2.2.8/phiola-2.2.8-windows-x64.zip",
+            "hash": "ccb33007b0cdf53946fad9e27d2214f9d6715bd148c1e2a7e470d02ccce12ecd",
             "extract_dir": "phiola-2"
         }
     },
