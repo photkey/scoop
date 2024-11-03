@@ -1,0 +1,16 @@
+{
+    "version": "1.0.1",
+    "description": "Switch your input method through command line",
+    "homepage": "https://github.com/daipeihust/im-select",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://raw.githubusercontent.com/daipeihust/im-select/master/win/out/x64/im-select.exe",
+            "hash": "E66F0A6E30B9F20787C7D4A1C57B8F2B518D36C1C7CBDBBB6220D51226DDD0B6"
+        }
+    },
+    "bin": "im-select.exe",
+    "checkver": {
+        "github": "https://github.com/daipeihust/im-select"
+    }
+}
