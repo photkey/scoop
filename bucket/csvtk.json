@@ -1,16 +1,16 @@
 {
-    "version": "0.33.0",
+    "version": "0.34.0",
     "description": "A cross-platform, efficient and practical CSV/TSV toolkit",
     "homepage": "https://github.com/shenwei356/csvtk",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shenwei356/csvtk/releases/download/v0.33.0/csvtk_windows_amd64.exe.tar.gz",
-            "hash": "1b4c296e5aa6b6c7b6231fc47fdb1a2e6b7775825908064dadc485c2e2cea989"
+            "url": "https://github.com/shenwei356/csvtk/releases/download/v0.34.0/csvtk_windows_amd64.exe.tar.gz",
+            "hash": "28cfd67954d79c07a33b77c4ad867ffee8a937a36aaab75892b1f8ab4841521c"
         },
         "32bit": {
-            "url": "https://github.com/shenwei356/csvtk/releases/download/v0.33.0/csvtk_windows_386.exe.tar.gz",
-            "hash": "350337075dbaf620dd7b5239246ed8f1c84e9c989ecee7df946bdfd00c70a917"
+            "url": "https://github.com/shenwei356/csvtk/releases/download/v0.34.0/csvtk_windows_386.exe.tar.gz",
+            "hash": "72c7df9f42e55a5cea98cc4e032d2b161c61d66d69a385b81268394a1df49970"
         }
     },
     "bin": "csvtk.exe",
