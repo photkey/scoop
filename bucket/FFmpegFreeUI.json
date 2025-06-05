@@ -2,7 +2,7 @@
     "version": "0.5",
     "description": "A GUI tool for FFmpeg.",
     "homepage": "https://github.com/Lake1059/FFmpegFreeUI",
-    "license": "MIT",
+    "license": "Unknown",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/0.5/FFmpegFreeUI.x64.exe",
@@ -14,10 +14,9 @@
         }
     },
     "bin": "FFmpegFreeUI.exe",
-    "installer": {
-        "file": "FFmpegFreeUI.*.exe",
-        "rename": "FFmpegFreeUI.exe"
-    },
+    "pre_install": [
+        "Rename-Item \"$dir\\FFmpegFreeUI.*.exe\" 'FFmpegFreeUI.exe'"
+    ],
     "shortcuts": [
         [
             "FFmpegFreeUI.exe",
@@ -35,9 +34,6 @@
             "32bit": {
                 "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/$version/FFmpegFreeUI.x86.exe"
             }
-        },
-        "hash": {
-            "url": "$baseurl/FFmpegFreeUI.sha256"
         }
     }
 }
