@@ -1,9 +1,9 @@
 {
-    "version": "2.0.9",
+    "version": "2.1.0",
     "description": "CursorPro - A free everyday-use tool (green software)",
     "homepage": "https://github.com/agentcodee/cursor-free-everyday",
     "license": "MIT License",
-    "url": "https://github.com/agentcodee/cursor-free-everyday/releases/download/发布版本2.0.9/Windows2.0.9.zip",
+    "url": "https://github.com/agentcodee/cursor-free-everyday/releases/download/发布版本2.1.0/Windows2.1.0.zip",
     "hash": "74f126a3d61a385b76a869ee8ca8b538ae71341dbee306ba025359bc4f8d6702",
     "bin": "CursorPro.exe",
     "shortcuts": [
