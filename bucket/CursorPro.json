@@ -1,10 +1,10 @@
 {
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "CursorPro - A free everyday-use tool (green software)",
     "homepage": "https://github.com/agentcodee/cursor-free-everyday",
     "license": "MIT License",
-    "url": "https://github.com/agentcodee/cursor-free-everyday/releases/download/%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC2.1.0/Windows2.1.0.zip",
-    "hash": "c57c25e3c1b9bfa27acd7184a046c992855ff0f4b2f4f137ee3f42762550e4b4",
+    "url": "https://github.com/agentcodee/cursor-free-everyday/releases/download/%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC2.1.1/Windows2.1.1.zip",
+    "hash": "7314aa2f5c11836a2435935a9a710cd5768c7733ba4a4fc44c6cdbb99829a6b0",
     "bin": "CursorPro.exe",
     "shortcuts": [
         [
@@ -12,10 +12,10 @@
             "CursorPro"
         ]
     ],
-"checkver": {
-  "github": "https://github.com/agentcodee/cursor-free-everyday",
-  "regex": "发布版本([\\d.]+)"
-},
+    "checkver": {
+        "github": "https://github.com/agentcodee/cursor-free-everyday",
+        "regex": "发布版本([\\d.]+)"
+    },
     "autoupdate": {
         "url": "https://github.com/agentcodee/cursor-free-everyday/releases/download/%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC$version/Windows$version.zip"
     }
