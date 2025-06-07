@@ -12,9 +12,10 @@
             "CursorPro"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/agentcodee/cursor-free-everyday"
-    },
+"checkver": {
+  "github": "https://github.com/agentcodee/cursor-free-everyday",
+  "regex": "发布版本([\\d.]+)"
+},
     "autoupdate": {
         "url": "https://github.com/agentcodee/cursor-free-everyday/releases/download/%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC$version/Windows$version.zip"
     }
