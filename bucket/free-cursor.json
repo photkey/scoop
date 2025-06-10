@@ -1,0 +1,22 @@
+{
+    "version": "1.0.3",
+    "description": "Free Cursor - A lightweight cursor utility",
+    "homepage": "https://github.com/zhaijie1314521/free-cursor",
+    "license": "MIT",
+    "url": "https://github.com/zhaijie1314521/free-cursor/releases/download/v1.0.3/Free-Cursor.zip",
+    "hash": "6c6ed320f1b3556349f0a9bd0eb3f3e159b5086980ee3ade44d9e79ab4874976",
+    "bin": "Free-Cursor.exe",
+    "shortcuts": [
+        [
+            "Free-Cursor.exe",
+            "Free-Cursor"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/zhaijie1314521/free-cursor",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/zhaijie1314521/free-cursor/releases/download/v$version/Free-Cursor.zip"
+    }
+}
