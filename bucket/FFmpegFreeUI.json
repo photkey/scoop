@@ -1,22 +1,20 @@
 {
-    "version": "0.5",
+    "version": "0.6",
     "description": "A GUI tool for FFmpeg.",
     "homepage": "https://github.com/Lake1059/FFmpegFreeUI",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/0.5/FFmpegFreeUI.x64.exe",
-            "hash": "98123c97477f4d7df3d233bcbe3b8529f8a9ad2a7f2a57128c8f86b822810958"
+            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/0.6/FFmpegFreeUI.x64.exe",
+            "hash": "4ec02547b168fe37d52e6d6476c06c9f91a4430830fe5d0e0db7034f84f54ca6"
         },
         "32bit": {
-            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/0.5/FFmpegFreeUI.x86.exe",
-            "hash": "a5f3b3087367abe523c40529871ad351f909086f91ab3f6837cef85de059a872"
+            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/0.6/FFmpegFreeUI.x86.exe",
+            "hash": "1640e757de28023981473d3aa90f858ff9e5dfe6b5979dbfc21598bea09cf871"
         }
     },
     "bin": "FFmpegFreeUI.exe",
-    "pre_install": [
-        "Rename-Item \"$dir\\FFmpegFreeUI.*.exe\" 'FFmpegFreeUI.exe'"
-    ],
+    "pre_install": "Rename-Item \"$dir\\FFmpegFreeUI.*.exe\" 'FFmpegFreeUI.exe'",
     "shortcuts": [
         [
             "FFmpegFreeUI.exe",
