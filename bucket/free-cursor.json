@@ -13,7 +13,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/zhaijie1314521/free-cursor",
+        "github": "https://github.com/dulikaifazr/Free-Cursor",
         "regex": "v([\\d.]+)"
     },
     "autoupdate": {
