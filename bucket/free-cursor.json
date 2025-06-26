@@ -1,10 +1,10 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.4",
     "description": "Free Cursor - A lightweight cursor utility",
     "homepage": "https://github.com/dulikaifazr/Free-Cursor",
     "license": "MIT",
-    "url": "https://github.com/dulikaifazr/Free-Cursor/releases/download/v1.0.2/Free-Cursor.zip",
-    "hash": "900179aaff111d1b35dc88bf863b0bbdcee5a62511f1c97498aaa6125e00bebb",
+    "url": "https://github.com/dulikaifazr/Free-Cursor/releases/download/v1.0.4/Free-Cursor.zip",
+    "hash": "cbc69235f502111fc45cb644a6f476a782bd146a1680dc1637c669633234bb8b",
     "bin": "Free-Cursor.exe",
     "shortcuts": [
         [
