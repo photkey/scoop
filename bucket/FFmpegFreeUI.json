@@ -5,7 +5,9 @@
     "license": "MIT",
     "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/1.0/FFmpegFreeUI.ReadyToRun.x64.7z",
     "hash": "9c22227f4928396433f6a50ecbe2298e849ca69100cbda4b369eba5fd216be81",
-    "bin": "FFmpegFreeUI.exe",
+    "bin": [
+        "FFmpegFreeUI.exe"
+    ],
     "shortcuts": [
         [
             "FFmpegFreeUI.exe",
