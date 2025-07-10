@@ -9,7 +9,6 @@
             "hash": "9c22227f4928396433f6a50ecbe2298e849ca69100cbda4b369eba5fd216be81"
         }
     },
-    "extract_dir": "1.0", 
     "bin": "FFmpegFreeUI.exe",
     "shortcuts": [
         [
@@ -26,7 +25,6 @@
             "64bit": {
                 "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/$version/FFmpegFreeUI.ReadyToRun.x64.7z"
             }
-        },
-        "extract_dir": "$version"
+        }
     }
 }
