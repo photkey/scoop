@@ -1,13 +1,11 @@
 {
-    "version": "1.0",
+    "version": "1.1",
     "description": "FFmpegFreeUI - A lightweight FFmpeg front-end for video processing",
     "homepage": "https://github.com/Lake1059/FFmpegFreeUI",
     "license": "MIT",
-    "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/1.0/FFmpegFreeUI.ReadyToRun.x64.7z",
-    "hash": "9c22227f4928396433f6a50ecbe2298e849ca69100cbda4b369eba5fd216be81",
-    "bin": [
-        "FFmpegFreeUI.exe"
-    ],
+    "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/1.1/FFmpegFreeUI.ReadyToRun.x64.7z",
+    "hash": "2cabdda5c9d897e6116ae98c081116ed22ac41fc6eaebcf1029c78a7f9279607",
+    "bin": "FFmpegFreeUI.exe",
     "shortcuts": [
         [
             "FFmpegFreeUI.exe",
