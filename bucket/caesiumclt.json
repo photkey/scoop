@@ -1,23 +1,26 @@
 {
-    "version": "0.21.0",
-    "description": "命令行图像压缩工具",
+    "version": "1.1.0",
+    "description": "A command-line image compression tool.",
     "homepage": "https://github.com/Lymphatus/caesium-clt",
-    "license": "MIT",
+    "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Lymphatus/caesium-clt/releases/download/0.21.0/caesiumclt-0.21.0-x86_64-pc-windows-msvc.zip",
-            "hash": "0927e363da3bf37c3875cd37900f1e58f829d6f0e2d19da9dd53fbbcfacb7da7"
+            "url": "https://github.com/Lymphatus/caesium-clt/releases/download/v1.1.0/caesiumclt-v1.1.0-x86_64-pc-windows-msvc.zip",
+            "hash": "06306940707440bd685aef02334349acfc5445ee669a93d089308f77aaf0e766"
         }
     },
-    "extract_dir": "caesiumclt-0.21.0-x86_64-pc-windows-msvc",
+    "extract_dir": "caesiumclt-v1.1.0",
     "bin": "caesiumclt.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Lymphatus/caesium-clt/releases/download/$version/caesiumclt-$version-x86_64-pc-windows-msvc.zip"
+                "url": "https://github.com/Lymphatus/caesium-clt/releases/download/v$version/caesiumclt-v$version-x86_64-pc-windows-msvc.zip",
+                "hash": {
+                    "url": "$url.sha256"
+                }
             }
         },
-        "extract_dir": "caesiumclt-$version-x86_64-pc-windows-msvc"
+        "extract_dir": "caesiumclt-v$version"
     }
 }
