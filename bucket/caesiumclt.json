@@ -9,7 +9,7 @@
             "hash": "06306940707440bd685aef02334349acfc5445ee669a93d089308f77aaf0e766"
         }
     },
-    "extract_dir": "caesiumclt-v1.1.0",
+    "extract_dir": "caesiumclt-v1.1.0-x86_64-pc-windows-msvc",
     "bin": "caesiumclt.exe",
     "checkver": "github",
     "autoupdate": {
@@ -21,6 +21,6 @@
                 }
             }
         },
-        "extract_dir": "caesiumclt-v$version"
+        "extract_dir": "caesiumclt-v$version-x86_64-pc-windows-msvc"
     }
 }
