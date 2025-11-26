@@ -1,12 +1,12 @@
 {
-    "version": "6.5.20",
+    "version": "6.5.21",
     "description": "A proxy server that provides OpenAI/Gemini/Claude/Codex compatible API interfaces for various CLI models.",
     "homepage": "https://github.com/router-for-me/CLIProxyAPI",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v6.5.20/CLIProxyAPI_6.5.20_windows_amd64.zip",
-            "hash": "f945752ea86b7031a25d0e37657e7669027ac6fb686d8b0f1b1dbf6d93a9ff2c"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v6.5.21/CLIProxyAPI_6.5.21_windows_amd64.zip",
+            "hash": "867fca123ed2792ca47e80341ba4d59c7b7e7dd82abd67bbb77fe34833b626f6"
         }
     },
     "bin": "cli-proxy-api.exe",
