@@ -1,15 +1,15 @@
 {
-    "version": "1.1.1",
+    "version": "1.2.0",
     "description": "A command-line image compression tool.",
     "homepage": "https://github.com/Lymphatus/caesium-clt",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Lymphatus/caesium-clt/releases/download/v1.1.1/caesiumclt-v1.1.1-x86_64-pc-windows-msvc.zip",
-            "hash": "49df49af44fa40f1777a302120993de78e91cff31e45b1278d746f108a2e8656"
+            "url": "https://github.com/Lymphatus/caesium-clt/releases/download/v1.2.0/caesiumclt-v1.2.0-x86_64-pc-windows-msvc.zip",
+            "hash": "69cec6922124333a26996f8c8f205887c815ae698a3f52fea516c94e8dc34537"
         }
     },
-    "extract_dir": "caesiumclt-v1.1.1-x86_64-pc-windows-msvc",
+    "extract_dir": "caesiumclt-v1.2.0-x86_64-pc-windows-msvc",
     "bin": "caesiumclt.exe",
     "checkver": "github",
     "autoupdate": {
